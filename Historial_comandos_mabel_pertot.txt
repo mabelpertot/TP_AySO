@@ -1,0 +1,36 @@
+ls la
+ls -l
+cat <<EOL >> README.md
+Alumno: <Mabel Pertot>
+Division: <313>
+Turno: <Noche>
+EOL
+
+cat README
+cat README.md
+git add .
+ls
+cd repogit/
+ls
+cd ..
+cd home
+cd /home/
+ls
+cd repogit/
+ls
+cd tp
+cd TP_AySO/
+ls
+cat README.md
+ls
+cat README.md 
+cat <<EOL >> README.md
+Alumno: Mabel Pertot
+Division: 313
+Turno: Noche
+EOL
+
+cat README.md 
+git add .
+git commit -m "docs: ADD: Datos Alumno, division y turno sobre README.md"
+history -a
